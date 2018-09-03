@@ -1,0 +1,34 @@
+{
+    "name": "wonder-bs-jszip",
+    "version": "0.0.2",
+    "authors": "voodoos",
+    "description": "Bucklescript bindings for JSZip",
+    "license": "MIT",
+    "scripts": {
+        "watch": "bsb -clean-world -make-world -w",
+        "build": "bsb -clean-world -make-world"
+    },
+    "keywords": [
+        "reason",
+        "react",
+        "bindings",
+        "js",
+        "zip",
+        "tools",
+        "jszip"
+    ],
+    "homepage": "https://github.com/voodoos/bs-jszip",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/voodoos/bs-jszip"
+    },
+    "bugs": {
+        "url": "https://github.com/voodoos/bs-jszip/issues"
+    },
+    "dependencies": {
+        "jszip": "^3.1.5"
+    },
+    "devDependencies": {
+        "bs-platform": "4.0.0"
+    }
+}
